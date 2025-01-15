@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(121, 66, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+#modal {
+  background-color: white;
+  width: 50vh;
+  height: 30vh;
+  border-radius: 3vh;
+}
+#doneBtn {
+  background-color: rgb(44, 224, 44);
+}
+.container {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+#startBtn {
+  width: 150px;
+  height: 50px;
+}
+h1 {
+  color: rgb(121, 66, 236);
+}
+#bulbCount {
+  width: 20vh;
+  border-radius: 1vh;
+}
+
+#bulbContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.bulb {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bulb-off {
+  background-image: url("off_bulb.png");
+}
+
+.bulb-on {
+  background-image: url("onbulb.png");
+}
